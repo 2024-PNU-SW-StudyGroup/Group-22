@@ -1,249 +1,114 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/T3QcP9pQ)
-# Template for Hackathon
-이 레파지토리는 참여자들이 해커톤 결과물을 위한 레파지토리 생성시에 참고할 내용들을 담고 있습니다.
-1. 레파지토리 생성
-2. 레파지토리 구성
-3. README.md 가이드라인
-4. README.md 작성팁
-<br/>
+# Python Advanced Study Group - README
 
+## 🌟 소개
 
-## 1. 레파지토리 생성
-- [https://classroom.github.com/a/T3QcP9pQ](https://classroom.github.com/a/T3QcP9pQ)
-- 위 Github Classroom 링크에 접속해 본인 조의 github 레파지토리를 생성하세요.
-  <img src="https://github.com/user-attachments/assets/aab768c0-7f1a-4919-99c1-5ead50c3c61d" width="600px" alt="classroom에서 팀 생성 그림" />
-- 레파지토리 생성 시 팀 이름은 `{조번호}` 형식으로 생성하세요.
-- 예를 들어, 3조의 팀명은 `03` 입니다.
-- 이 경우 `Group-03`이라는 이름으로 레포지토리가 생성됩니다.
-- 팀원의 경우 생성되어 있는 팀에 참가해주세요. <br/>
-  팀에 참가하지 않았을 경우, 레포지토리에 대한 권한이 없어 PR 및 commit이 막힐 수 있습니다.
-  <img width="600" alt="classroom에서 팀 참여 그림" src="https://github.com/user-attachments/assets/86f084f0-8623-40ed-b6d5-4e307ee8478b">
-<br/>
+**Python Advanced Study Group**에 오신 것을 환영합니다!  
+이 스터디 그룹은 Python의 고급 기술을 학습하고, 이를 실제 프로젝트에 적용함으로써 성능 최적화와 효율적인 코딩 습관을 체득하는 것을 목표로 합니다.
 
+---
 
-## 2. 레파지토리 구성
-- 레파지토리 내에 `README.md` 파일 생성하고 아래의 가이드라인과 작성팁을 참고하여 파일을 작성하세요.
-- 레파지토리 내에 `docs` 폴더를 생성하고 폴더 내에는 과제 수행 하면서 작성한 각종 보고서, 발표자료를 올려둡니다.
-- 그 밖에 레파지토리의 폴더 구성은 과제 결과물에 따라 자유롭게 구성하되 가급적 코드의 목적이나 기능에 따라 폴더를 나누어 구성하세요.  
-<br/>
+## 📌 프로젝트 개요
 
+### **프로젝트명:**  
+Python Advanced Study Group  
 
-## 3. README.md 가이드라인
-- README 파일 작성시에 아래의 5가지 항목의 내용은 필수적으로 포함해야 합니다.
-- 아래의 7가지 항목이외에 프로젝트의 이해를 돕기위한 내용을 추가해도 됩니다.
-- `SAMPLE_README.md`가 단순한 형태의 예제이니 참고하세요.
-```markdown
-### 1. 프로젝트 소개
-#### 1.1. 개발배경 및 필요성
-> 프로젝트를 실행하게 된 배경 및 필요성을 작성하세요.
+### **목표:**  
+*파이썬 코딩의 기술* 책을 활용하여 Python의 고급 기술을 체계적으로 학습하고, 성능 최적화 기술을 활용해 실제 개발 환경에서 Python의 한계를 극복하는 방법을 배우는 것.  
 
-#### 1.2. 개발 목표 및 주요 내용
-> 프로젝트의 목표 및 주요 내용을 작성하세요.
+### **주요 학습 주제:**  
+- **가비지 컬렉션 관리:** Python의 메모리 관리 기법 학습.  
+- **Numpy 최적화:** 배열 및 벡터 연산을 활용한 성능 향상.  
+- **병렬 처리:** Numpy와 PyTorch를 활용한 멀티프로세싱 최적화.  
+- **클래스 최적화:** dict를 활용한 클래스 성능 개선.  
+- **Pandas 성능 최적화:** Pandas의 병목 현상 해결 및 성능 문제 개선.  
+- **JSON 파싱 최적화:** `orjson`, `ujson` 등의 고성능 대체 패키지 사용.  
+- **Pydantic 최적화:** 불필요한 데이터 검증 감소.  
+- **멀티프로세싱 vs 싱글프로세싱:** 적합한 처리 방식 선택 및 성능 비교.  
+- **Python 3.11 성능 개선:** 최신 기능 활용 및 클래스 생성 최적화.  
 
-#### 1.3. 세부내용
-> 위 내용을 작성하세요.
+---
 
-#### 1.4. 기존 서비스 대비 차별성
-> 위 내용을 작성하세요.
+## 🗓️ 스터디 계획
 
-#### 1.5. 사회적가치 도입 계획
-> 위 내용을 작성하세요.
+### **정기 모임:**  
+- **일정:** 매주 목요일일 오후 9시  
+- **장소:** 6공학관  
+- **형식:**  
+  - 발표와 토론 중심의 학습  
+  - 실습과 코드 리뷰  
+  - 팀별 협업을 통한 피드백  
 
+### **일정표:**  
+| 주차  | 주요 활동                             | 산출물                            |
+|-------|---------------------------------------|------------------------------------|
+| 1-2주 | 스터디 소개 및 Numpy 최적화 학습      | 발표 자료 및 실습 코드            |
+| 3-4주 | Pandas 최적화 및 JSON 파싱            | 코드 스니펫 및 성능 분석 리포트    |
+| 5-6주 | 병렬 처리와 Python 최적화            | 성능 비교 실험 결과               |
+| 7-8주 | Pydantic, 클래스 최적화               | 코드 리팩토링 결과                |
+| 9-10주| Python 3.11 기능 적용 및 프로젝트 완성| 최종 보고서 및 발표 자료          |
 
-### 2. 상세설계
-#### 2.1. 시스템 구성도
-> 시스템 구성도(infra, front, back등의 node 간의 관계)의 사진을 삽입하세요.
+---
 
-#### 2.1. 사용 기술
-> 스택 별(backend, frontend, designer등) 사용한 기술 및 버전을 작성하세요.
-> 
-> ex) React.Js - React14, Node.js - v20.0.2
+## 🛠️ 활용 기술 및 자원
 
-### 3. 개발결과
-#### 3.1. 전체시스템 흐름도
-> 위 내용을 작성하세요.
+- **프로그래밍 언어:** Python 3.11  
+- **사용 라이브러리:** Numpy, Pandas, PyTorch, Pydantic, `orjson`, `ujson`  
+- **버전 관리:** GitHub (코드 및 문서 관리)  
+- **교재:** *파이썬 코딩의 기술*  
 
-#### 3.2. 기능설명
-> 각 페이지 마다 사용자의 입력의 종류와 입력에 따른 결과 설명 및 시연 영상.
-> 
-> ex. 로그인 페이지:
-> 
-> - 이메일 주소와 비밀번호를 입력하면 입력창에서 유효성 검사가 진행됩니다.
-> 
-> - 요효성 검사를 통과하지 못한 경우, 각 경고 문구가 입력창 하단에 표시됩니다.
->   
-> - 유효성 검사를 통과한 경우, 로그인 버튼이 활성화 됩니다.
->   
-> - 로그인 버튼을 클릭 시, 입력한 이메일 주소와 비밀번호에 대한 계정이 있는지 확인합니다.
->   
-> - 계정이 없는 경우, 경고문구가 나타납니다.
->
-> (영상)
+---
 
-#### 3.3. 기능명세서
-> 개발한 제품에 대한 기능명세서를 작성해 제출하세요.
-> 
-> 노션 링크, 한글 문서, pdf 파일, 구글 스프레드 시트 등...
+## 🤝 팀 구성
 
-#### 3.4. 디렉토리 구조
-> 위 레포지토리의 디렉토리 구조를 설명하세요.
+| 역할       | 이름         | 전공                     | 학년 | 연락처                  |
+|------------|--------------|--------------------------|------|-------------------------|
+| **팀장**   | 홍진욱       | 정보컴퓨터공학부         | 4학년 | hju927@naver.com        |
+| 팀원       | 정지윤       | 정보컴퓨터공학부         | 3학년 | jammy9087@gmail.com     |
+| 팀원       | 정원태       | 통계학과                 | 3학년 | fime0328@gmail.com      |
+| 팀원       | 장인성       | 전기컴퓨터공학부         | 4학년 | wkddlstjd@pusan.ac.kr   |
 
-### 4. 설치 및 사용 방법
-> 제품을 설치하기 위헤 필요한 소프트웨어 및 설치 방법을 작성하세요.
->
-> 제품을 설치하고 난 후, 실행 할 수 있는 방법을 작성하세요.
+---
 
-### 5. 소개 및 시연 영상
-> 프로젝트에 대한 소개와 시연 영상을 넣으세요.
-> 프로젝트 소개 동영상을 교육원 메일(swedu@pusan.ac.kr)로 제출 이후 센터에서 부여받은 youtube URL주소를 넣으세요.
+## 🚀 스터디 목표
 
-### 6. 팀 소개
-> 팀원 소개 & 구성원 별 역할 분담 & 간단한 연락처를 작성하세요.
+### **학습 목표:**  
+- Python 고급 기술을 습득하여 성능 최적화 기술을 학습.  
+- 학습한 내용을 실무 프로젝트와 데이터 분석에 적용.  
 
-### 7. 해커톤 참여 후기
-> 팀원 별 해커톤 참여 후기를 작성하세요.
-```
-<br/>
+### **활용 목표:**  
+1. **지역사회 및 학교 내 문제 해결:**  
+   학습한 기술을 활용하여 지역사회나 학교 내 데이터 분석 프로젝트에 기여.  
 
+2. **제품화 및 사업화:**  
+   고성능 데이터 분석 도구 및 웹 애플리케이션 개발로 실제 제품화 가능성 탐구.  
 
-## 4. README.md 작성 팁
-- 마크다운 언어를 이용해 README.md 파일을 작성할 때 참고할 수 있는 마크다운 언어 문법을 공유합니다.
-- 다양한 예제와 보다 자세한 문법은 [이 문서](https://www.markdownguide.org/basic-syntax/)를 참고하세요.
+---
 
-### 4.1. 헤더 Header
-```
-# This is a Header 1
-## This is a Header 2
-### This is a Header 3
-#### This is a Header 4
-##### This is a Header 5
-###### This is a Header 6
-####### This is a Header 7 은 지원되지 않습니다.
-```
+## 📂 산출물
 
-# This is a Header 1
-## This is a Header 2
-### This is a Header 3
-#### This is a Header 4
-##### This is a Header 5
-###### This is a Header 6
-####### This is a Header 7 은 지원되지 않습니다.
-<br />
+1. **GitHub 업데이트:**  
+   매주 진행 상황과 코드 업로드.  
+2. **중간 보고서:**  
+   학습한 기술 요약 및 초기 결과물.  
+3. **최종 보고서:**  
+   전체 활동, 결과물, 실습 내용을 포함한 보고서 제출.  
 
-### 4.2. 인용문 BlockQuote
-```
-> This is a first blockqute.
->	> This is a second blockqute.
->	>	> This is a third blockqute.
-```
-> This is a first blockqute.
->	> This is a second blockqute.
->	>	> This is a third blockqute.
-<br />
+---
 
-### 4.3. 목록 List
-* **Ordered List**
-```
-1. first
-2. second
-3. third  
-```
-1. first
-2. second
-3. third
-<br />
+## 📣 특화 활동
 
-* **Unordered List**
-```
-* 하나
-  * 둘
+- **전문가 특강 제안:**  
+  Python 성능 최적화 및 병렬 처리 관련 전문가를 초청하여 실무 사례와 노하우를 배우는 워크샵 진행 계획.
 
-+ 하나
-  + 둘
+---
 
-- 하나
-  - 둘
-```
-* 하나
-  * 둘
+## 📢 유의사항
 
-+ 하나
-  + 둘
+1. 모든 산출물은 GitHub를 통해 6개월간 공개됩니다.  
+2. 제출된 모든 자료는 참가자 본인이 직접 작성한 것임을 보장해야 합니다.  
+3. 모든 팀원은 성실히 활동하며 학습 내용을 적극적으로 공유할 것을 약속합니다.  
 
-- 하나
-  - 둘
-<br />
+---
 
-### 4.4. 코드 CodeBlock
-* 코드 블럭 이용 '``'
-```
-여러줄 주석 "```" 이용
-"```
-#include <stdio.h>
-int main(void){
-  printf("Hello world!");
-  return 0;
-}
-```"
-
-단어 주석 "`" 이용
-"`Hello world`"
-
-* 큰 따움표(") 없이 사용하세요.
-``` 
-<br />
-
-### 4.5. 링크 Link
-```
-[Title](link)
-[부산대 소프트웨어융합교육원](https://swedu.pusan.ac.kr/swedu/index.do)
-
-<link>
-<https://swedu.pusan.ac.kr>
-``` 
-[부산대 소프트웨어융합교육원](https://swedu.pusan.ac.kr)
-
-<https://swedu.pusan.ac.kr>  
-<br />
-
-### 4.6. 강조 Highlighting
-```
-*single asterisks*
-_single underscores_
-**double asterisks**
-__double underscores__
-~~cancelline~~
-```
-*single asterisks* <br />
-_single underscores_ <br />
-**double asterisks** <br />
-__double underscores__ <br />
-~~cancelline~~  <br />
-<br />
-
-### 4.7. 이미지 Image
-```
-<img src="/path/to/img.jpg" width="600px" title="Title" alt="Alt text"></img>
-![Alt text](/path/to/img.jpg "Optional title")
-```
-<img src="https://github.com/pnuswedu/SW-Hackathon-2024/assets/34933690/be7beb64-490f-4480-b121-f25cde7f2a8d" width="600px" title="부산대학교 소프트웨어융합교육원" alt="부산대학교 소프트웨어융합교육원"></img>
-<br/>
-![부산대학교 소프트웨어융합교육원](https://github.com/pnuswedu/SW-Hackathon-2024/assets/34933690/884154bb-28f6-4498-9f64-a8a878972951, "부산대학교 소프트웨어융합교육원")
-<br/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Python 고급 기술 학습과 성능 최적화 여정을 함께 하세요! 😊  
+GitHub에서 스터디 진행 상황을 확인하고, 발전 과정을 함께 지켜봐 주세요. 
